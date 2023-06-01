@@ -1,0 +1,2 @@
+\newpage
+# Análise de regressão com duas variáveis: algumas ideias básicas

@@ -1,4 +1,4 @@
-primeiro-capítulo
-primeira-seção-do-capítulo-1
-primeira-subseção-do-capítulo-1
-a-caucus-race-and-a-long-tale
+tab:unnamed-chunk-3
+a-natureza-da-análise-de-regressão
+análise-de-regressão-com-duas-variáveis-algumas-ideias-básicas
+modelo-de-regressão-de-duas-variáveis-o-problema-da-estimação

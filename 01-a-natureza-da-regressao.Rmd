@@ -1,0 +1,30 @@
+```{r, include=F}
+tbl_1_3 <-  data.frame(sapply(Table1_3, function(x) as.numeric(as.character(x))))
+```
+
+
+\newpage
+# A natureza da análise de regressão
+
+## Exercícios {.unlisted .unnumbered}
+
+1. A Tabela 1.3 apresenta dados relativos ao Índice de Preços ao Consumidor (IPC) de sete países
+industrializados. A base do índice é 1982–1984 = 100.
+
+
+    ```{r, echo=F}
+    tbl_1_3 %>%
+      kbl(
+        booktabs = T,
+        linesep = "",
+        caption = "IPC em sete países industrializados, 1980-2005 (1982-1984=100) [Tab. 1.3]",
+        col.names = c("Ano", "EUA", "Canadá", "Japão", "França", "Alemanha", "Itália", "Reino Unido")
+      ) %>%
+      kable_styling(latex_options = c("striped", "HOLD_position"), position = "center")
+    ```
+
+    a. Com base nos dados fornecidos, calcule a taxa de inflação de cada país.
+    b. Represente graficamente a taxa de inflação de cada país em relação ao tempo (isto é, use o eixo horizontal para o tempo e o eixo vertical para a taxa de inflação).
+    c. Que conclusões gerais é possível tirar sobre a evolução da inflação nos sete países?
+    d. Em que país a taxa de inflação parece ser a mais flutuante? Há alguma explicação para isso?
+
